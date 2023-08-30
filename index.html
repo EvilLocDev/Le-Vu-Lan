@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xin Quẻ Của Phật</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Xin Quẻ Của Phật</h1>
+  <div class="input-container input-name">
+    <label for="nameInput">Tên con:</label>
+    <input type="text" id="nameInput">
+  </div>
+  <div class="input-container">
+    <label for="questionSelect">Con muốn hỏi:</label>
+    <select id="questionSelect">
+      <option value="1">Hôm nay</option>
+      <option value="2">Ngày mai</option>
+      <option value="3">Dự định</option>
+      <option value="4">Con phân vân</option>
+      <option value="5">Nhờ Phật chọn dùm</option>
+    </select>
+  </div>
+  <button id="submitBtn">Xin Quẻ</button>
+  <div id="result" class="hidden">
+    <p id="resultText"></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
